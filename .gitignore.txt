@@ -1,0 +1,36 @@
+.venv/
+__pycache__/
+*.pyc
+.venv
+
+# Arquivos de modelo pesados
+*.pt
+*.pth
+*.onnx
+yolov8n.pt
+yolov8*.pt
+
+# Dataset e imagens
+dataset_agro/
+data/
+static/captures/
+
+# Formatos de imagem pesados
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.webp
+
+# Arquivos de vídeo
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Arquivos compactados
+*.zip
+*.tar
+*.gz
+*.rar
